@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "postinstall": "yarn build",
+    "postinstall": "npm run build",
     "server": "node server.js",
     "client": "cd client && npm run start",
     "start": "./node_modules/.bin/concurrently \"./node_modules/.bin/nodemon\" \"npm run client\"",
